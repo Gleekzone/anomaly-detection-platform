@@ -1,8 +1,8 @@
 FROM python:3.7-slim
 
 # Create the working directory
-RUN mkdir -p /src/anomaly-detection-platform
-WORKDIR /src/anomaly-detection-platform
+RUN mkdir -p /src
+WORKDIR /src
 
 # Install jupyter
 RUN pip install --no-cache-dir jupyter
