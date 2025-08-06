@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "anomaly_detection_platform"
+version = "0.1.0"
+description = "Anomaly detection project with Jupyter, pandas and plotly"
+authors = ["Glen Lopez"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+plotly = "^5.22.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
