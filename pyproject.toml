@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "anomaly_detection_platform"
+name = "app"
 version = "0.1.0"
-description = "Anomaly detection project with Jupyter, pandas and plotly"
+description = "Anomaly detection platform"
 authors = ["Glen Lopez"]
 license = "MIT"
 
@@ -12,6 +12,9 @@ plotly = "^5.22.0"
 jupyter = "^1.0.0"
 scikit-learn = "^1.7.1"
 matplotlib = "^3.10.5"
+uvicorn = "^0.35.0"
+fastapi = "^0.116.1"
+pydantic = "^2.11.7"
 
 [build-system]
 requires = ["poetry-core"]
